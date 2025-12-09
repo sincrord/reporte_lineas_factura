@@ -6,10 +6,14 @@
         <field name="model">xls.invoice.lineasfac</field>
         <field name="arch" type="xml">
             <form string="Reporte de líneas de factura">
+                <!-- Campo técnico -->
                 <field name="no_resultado" invisible="1"/>
-                <group attrs="{'invisible':[('no_resultado', '=', False)]}">
+
+                <!-- Mensaje de error: solo visible cuando no_resultado es True -->
+                <group invisible="not no_resultado">
                     <p>Error al encontrar lo que buscabas!</p>
                 </group>
+
                 <group col="4">
                     <field name="fecha_ini"/>
                     <field name="fecha_fin"/>
