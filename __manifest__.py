@@ -7,8 +7,8 @@
 Reporte de líneas de factura exportable a XLSX.
     ''',
     'category': 'Accounting/Reporting',
-    'author': 'IT Admin',
-    'website': 'http://www.itadmin.com.mx',
+    'author': 'SINCRO Recursos Digitales',
+    'website': 'http://sincro.com.mx',
     'license': 'LGPL-3',
     'depends': [
         'base',
