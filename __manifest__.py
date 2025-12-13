@@ -3,9 +3,8 @@
     'name': 'Reporte de Líneas Factura',
     'version': '18.0.1.0.0',
     'summary': 'Reporte de líneas de factura exportable a XLSX',
-    'description': '''
-Reporte de líneas de factura exportable a XLSX.
-    ''',
+    'description': '''Genera reporte desglosado de cada línea de productos contenidos en una factura, exportando el resultado en formato de archivo XLSX. 
+                      Basado: Modulo Original de ITAdmin v.14''',
     'category': 'Accounting/Reporting',
     'author': 'SINCRO Recursos Digitales',
     'website': 'http://sincro.com.mx',
@@ -13,7 +12,7 @@ Reporte de líneas de factura exportable a XLSX.
     'depends': [
         'base',
         'account',
-        # Si en Odoo 19 también tienes este módulo y quieres seguir usando campos como
+        # Si en Odoo 18 también tienes este módulo y quieres seguir usando campos como
         # impuesto / tipo_comprobante, descomenta esta línea:
         'cdfi_invoice',
         #
